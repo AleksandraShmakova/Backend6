@@ -1,17 +1,20 @@
 <style>
 body{
-    background-color: #fcee0a;
-    display: flex;
+    background-image: url("sea.jpg");
+    background-size: no-repeat;
+    display: block;
     justify-content:center;
     margin-top:5%;
     margin-bottom:5%;
 }
+
 .main{
     padding: 40px;
     width: 250px;
-    background-color: #00ffd2;
-    border: 2px solid #fd0130;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #95bade;
+    border: 2px solid #26527C;
 }
 
 h1{
@@ -19,13 +22,30 @@ h1{
     margin-right: 25%;
 }
 
+a{
+    color: black;
+    display: flex;
+    justify-content:center;
+}
+
+	
+.button {
+  padding: 5%;
+  border: 1px solid #26527C;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .pas{
     margin:2%;
     padding: 5%;
     border: 1px solid;
-    border-color: #fd0130;
+    border-color: #26527C;
     border-radius: 3px;
 }
+	
 .error {
     border-color: #fd0130;
   }
