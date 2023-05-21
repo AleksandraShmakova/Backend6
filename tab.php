@@ -6,7 +6,7 @@ body{
     justify-content:center;
     margin-top:5%;
     margin-bottom:5%;
-    margin-left: 30%;
+    margin-left: 25%;
 }
   .form1{
     max-width: 960px;
