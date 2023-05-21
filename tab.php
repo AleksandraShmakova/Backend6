@@ -1,7 +1,8 @@
 <style>
 body{
-    background-color: #fcee0a;
-    display: flex;
+    background-image: url("sea.jpg");
+    background-size: no-repeat;
+    display: block;
     justify-content:center;
     margin-top:5%;
     margin-bottom:5%;
