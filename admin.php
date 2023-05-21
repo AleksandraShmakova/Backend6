@@ -28,7 +28,7 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
     setcookie('del','');
     setcookie('del_user','');
   }
-  print('Вы успешно авторизовались и видите защищенные паролем данные');<br>
+  print('Вы успешно авторизовались и видите защищенные паролем данные');
   $users=array();
   $pwrs=array();
   $pwr_def=array('inv','walk','fly');
