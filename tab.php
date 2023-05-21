@@ -2,7 +2,7 @@
 body{
     background-image: url("sea.jpg");
     background-size: no-repeat;
-    display: block;
+    display: flex;
     justify-content:center;
     margin-top:5%;
     margin-bottom:5%;
