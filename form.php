@@ -50,7 +50,10 @@ a{
     border-color: #fd0130;
   }
 </style>
-<?php
+
+<body>
+    <div class="main">
+	    <?php
 if (!empty($messages)) {
   print('<div id="messages">');
   // Выводим все сообщения.
@@ -60,8 +63,6 @@ if (!empty($messages)) {
   print('</div>');
 }
 ?>
-<body>
-    <div class="main">
     <h1>Форма</h1>
     
     <form action="index.php" method="POST">
